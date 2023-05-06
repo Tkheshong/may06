@@ -40,7 +40,7 @@ public class ItexpsTest {
 
     @BeforeMethod
     public void setUpMethod() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "C:\\Data\\chromedrivernew.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Data\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 
